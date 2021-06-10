@@ -1,0 +1,66 @@
+.body {
+  font-family: Georgia, "Segoe UI Semilight",
+        Times, serif;
+  color: black;
+  background-color: #d8da3d }
+  .h1 {
+ font-family: Helvetica, Geneva, Arial,
+       SunSans-Regular, sans-serif }
+.receta{
+  background-color: #ee5;
+  border: 5px  solid red;
+  margin: 100px;
+}
+.ingredientes{
+  background-color: pink;
+  border: 2px  solid black;
+  margin-right: 900px;
+  margin-bottom: 40px;
+}
+.PREPARACIÓN{
+  background-color: orange;
+  border: 2px solid black;
+}
+.menu{
+  background-color: gold
+  border:5px solid black;
+}
+.recetas_pizzas{
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 20px 500px ;
+}
+.video{
+  background-color: orange;
+  border: 2px solid black;
+}
+
+.mapa{
+  background-color: orange;
+  border: 2px solid black;
+}
+.tecnica{
+background-color: pink;
+border: 2px solid black;
+}
+.nota_pie{
+  background-color: pink;
+  border: 2px solid black;
+}
+body {
+color: black;
+background-color: #d8da3d }
+@media (max-width: 700px) {
+  .mapa{
+    display: none;
+  }
+  header{
+    flex-wrap:nowrap;
+  }
+  header nav{
+    width: 70%;
+  }
+  header nav ul{
+    flex.direction: row;
+    justify-content: space-around;
+  }
